@@ -27,7 +27,6 @@ var Weather = React.createClass({
 });
 },
   render: function () {
-    debugger;
     var {isLoading, temp, location} = this.state;
 
     function renderMessage () {
